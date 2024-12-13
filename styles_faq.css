@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'SF Compact Text', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+background-color: #815bff;
+color: white;
+padding: 20px 0; 
+display: flex;
+justify-content: space-between; 
+align-items: center;
+}
+
+.logo {
+font-size: 24px;
+font-weight: bold;
+margin-left: 120px; 
+}
+
+.nav {
+display: flex;
+justify-content: flex-end; /* Align items to the right */
+gap: 48px; /* Ensure 48px distance between links */
+margin-right: 120px;
+}
+
+
+.nav-link {
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+
+.nav-link.active {
+font-weight: bold;
+}
+
+.nav-link:hover {
+opacity: 0.8;
+}
+
+  
+.footer {
+  margin-top: 200px;
+  height: 197px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #815bff;
+  padding: 24px; 
+  color: white;
+}
+
+.footer-left {
+  margin-left: 200px; 
+}
+
+.footer-left h3 {
+  font-family: 'SF Compact Text', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.footer-right {
+  display: flex;
+  gap: 32px; 
+  margin-right: 200px; 
+}
+
+.footer-right .footer-link {
+  font-family: 'SF Compact Text', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white; 
+  text-decoration: none;
+}
+
+.footer-right .footer-link:hover {
+  text-decoration: underline; 
+}
+  
+.main-content {
+  font-family: 'SF Compact Text', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  width: 80%; 
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 50px 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left; 
+  line-height: 1.6;
+  gap: 20px; /* Adds 20px space between children */
+  box-sizing: border-box;
+}
+
+.main-content strong {
+  color: #000; /* Black color for titles */
+  font-weight: 600; /* Semi-bold for titles */
+}
+
+.main-content p {
+  color: #000; /* Gray color for content */
+  font-weight: 300; /* Regular weight for content */
+}
